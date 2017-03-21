@@ -7,5 +7,215 @@
   <body>
     <label>Pseudo : <input type="text" placeholder="Votre Pseudo"/></label>
     <label>Mot de passe <input type="password" maxlength="12"/></label>
+
+    <label for="mon-mail">email </label>  <input id="mon-mail" type="email" placeholder="exemple@domain.xx"/>
+    <label for="mon-nombre">nombre</label> <input id="mon-nombre" type="number" min="5" max="12"/>
+    <br>
+    <label for="fruit">Fruit</label> <input id="fruit" type="checkbox" />
+    <label for="legume">legume</label> <input id="legume" type="checkbox" />
+    <label for="viande">viande</label> <input id="viande" type="checkbox" />
+    <label for="poisson">poisson</label> <input id="poisson" type="checkbox" />
+    <br>
+    <label for="beau">beau</label> <input id="beau" type="checkbox" checked/>
+    <label for="intelligent">intelligent</label> <input id="intelligent" type="checkbox" />
+    <label for="curieux">curieux</label> <input id="curieux" type="checkbox" checked/>
+    <label for="musclé">musclé</label> <input id="musclé" type="checkbox" />
+    <br>
+
+	  <h1>Choisir un sport: </h1>
+	   <label for="foot">foot</label> <input id="foot" type="checkbox" />
+	   <label for="gym">gym</label> <input id="gym" type="checkbox" />
+	   <label for="boxe">boxe</label> <input id="boxe" type="checkbox" />
+     <label for="tennis">tennis</label> <input id="tennis" type="checkbox" />
+
+     <h1>Choisir une tranche d'age</h1>
+     <input type="radio" value="moin18" name="choice" id="moin18"/>
+     <label for="moin18">Moins de 18 ans</label>
+     <input type="radio" value="18-25" name="choice" id="18-25"/>
+     <label for="18-25">18 - 25 ans</label>
+     <input type="radio" value="25-40" name="choice" id="25-40"/>
+     <label for="25-40">25 - 40 ans</label>
+     <input type="radio" value="40-et-plus" name="choice" id="40-et-plus"/>
+     <label for="40-et-plus">40 ans et plus</label>
+
+     <h1>Choisir une ville</h1>
+<input type="radio" value="lille" name="ville" id="lille"/>
+<label for="lille">Lille</label><br>
+<input type="radio" value="roubaix" name="ville" id="roubaix"/>
+<label for="roubaix">Roubaix</label><br>
+<input type="radio" value="tourcoing" name="ville" id="tourcoing"/>
+<label for="tourcoing">Tourcoing</label><br>
+<input type="radio" value="marcq" name="ville" id="marcq"/>
+<label for="marcq">Marcq</label><br>
+<input type="radio" value="wattrelos" name="ville" id="wattrelos"/>
+<label for="wattrelos">Wattrelos</label><br>
+<input type="radio" value="mons" name="ville" id="mons"/>
+<label for="mons">Mons</label>
+
+<h1>Choisir votre animal preferé</h1>
+	<input type="radio" value="chien" name="animal" id="chien"/>
+	<label for="chien">Chien</label>
+	<input type="radio" value="chat" name="animal" id="chat"/>
+	<label for="chat">Chat</label>
+	<input type="radio" value="lapin" name="animal" id="lapin"/>
+	<label for="lapin">Lapin</label>
+	<input type="radio" value="hamster" name="animal" id="hamster"/>
+<label for="hamster">Hamster</label><br>
+
+<br>
+
+<label for="chanson">Choisi ta chanson</label>
+<select name="chanson" id="chanson">
+	<option value="Bad - Michael Jackson">Bad - Michael Jackson</option>
+	<option value="Billie Jean - Michael Jackson">Billie Jean - Michael Jackson</option>
+	<option value="Thriller - Michael Jackson">Thriller - Michael Jackson</option>
+	<option value="We are the world - Michael Jackson">We are the world - Michael Jackson</option>
+	<option value="Black or white- Michael Jackson">Black or white - Michael Jackson</option>
+</select> <br>
+<br>
+
+
+<label for="aliment">Choisi ton aliment</label>
+<select name="aliment" id="aliment">
+	<optgroup label="fruit">
+		<option value="pomme">Pomme</option>
+		<option value="poire">Poire</option>
+		<option value="fraise">Fraise</option>
+	</optgroup>
+	<optgroup label="legume">
+		<option value="poireau">Poireau</option>
+		<option value="pomme de terre">Pomme de Terre</option>
+		<option value="hariot">Haricot</option>
+	</optgroup>
+</select> <br>
+<br>
+<label for="film">Choisis ton film:</label>
+  <select id="film" name="film">
+      <optgroup label="fantastique">
+    <option value="harry potter">Harry Potter</option>
+    <option value="seigneur des anneaux">Seigneur des anneaux</option>
+      </optgroup>
+      <optgroup label="comedie">
+    <option value="how high">How High</option>
+    <option value="scary movie">Scary Movie</option>
+      </optgroup>
+      <optgroup label="Action">
+    <option value="fast and furious">Fast and Furious</option>
+    <option value="rambo">Rambo</option>
+      </optgroup>
+</select>
+
+<form action="" method="post">
+	<label for="nom">Nom</label>
+	<input  type="text" id="nom"/><br/>
+
+	<label for="prenom">Prenom</label>
+	<input type="text" id="prenom"/><br/>
+
+	<label for="password">Mot de passe</label>
+	<input type="password" id="password"/><br/>
+
+	<label for="email">Email</label>
+	<input type="email" id="email"/><br/>
+
+	Choisissez une marque de voiture: <br/>
+	<label for="ferrari">Ferrari</label>
+	<input name="ferrari" type="checkbox" value="ferrari" id="ferrari"/> <br/>
+
+	<label for="lamborghini">Lamborghini</label>
+	<input name="lamborghini" type="checkbox" value="lamborghini" id="lamborghini"/><br/>
+	<label for="porshe">Porshe</label>
+	<input name="porshe" type="checkbox" value="porshe" id="porshe"/><br/>
+
+	<label for="audi">Audi</label>
+	<input name="audi" type="checkbox" value="audi" id="audi"/><br/>
+
+	<label for="mercedes">Mercedes</label>
+	<input name="mercedes" value="mercedes" type="checkbox" id="mercedes"/><br/>
+
+	Sexe : <br/>
+	<input name="sexe" type="radio" value="homme" id="homme"/>
+	<label for="homme">Homme</label><br/>
+
+	<input name="sexe" type="radio" value="femme" id="femme"/>
+	<label for="femme">femme</label><br/>
+
+	<input name="" type="submit" value="soumettre"/>
+</form>
+
+<form action="traitement.php" method="post">
+	<label for="pseudo">Pseudo</label>
+	<input name="pseudo" type="text" value="" id=="pseudo" autofocus required/><br/>
+
+	<label for="password">password</label>
+	<input name="password" type="password" value="" id="password" maxlength="20" required/><br/>
+
+	<label for="age">Age</label>
+	<input name="age" type="number" min="18" max="40" value="" id="age"/><br/>
+
+	Vos Qualité: <br/>
+	<label for="serieux">Serieux</label>
+	<input name="serieux" type="checkbox" value="serieux" id="serieux"/><br/>
+
+	<label for="ponctuel">Ponctuel</label>
+	<input name="ponctuel" type="checkbox" value="ponctuel" id="ponctuel"/><br/>
+
+	<label for="jovial">Jovial</label>
+	<input name="jovial" type="checkbox" value="jovial" id="jovial"/><br/>
+
+	<label for="rigoureux">Rigoureux</label>
+	<input name="rigoureux" type="checkbox" value="Rigoureux" id="rigoureux"/><br/>
+
+	<label for="drole">Drôle</label>
+	<input name="drole" type="checkbox" value="drole" id="drole"/><br/>
+
+	Travail à la maison : <br/>
+	<label for="oui">Oui</label>
+	<input name="travail" type="radio" value="oui" id="oui"/><br/>
+
+	<label for="non">non</label>
+	<input name="travail" type="radio" value="non" id="non"/><br/>
+
+	<label for="message">Message :</label>
+	<textarea  id="message" name="message" placeholder="tapez votre texte ici."></textarea><br/>
+
+	<input name="" type="submit" value="soumettre"/>
+</form>
+
+<form action="traitement.php" method="post">
+	<label for="name">Name</label>
+	<input name="name" type="text" value="" id="name" autofocus required /><br/>
+
+	<label for="email">Email</label>
+	<input name="name" type="email" value="" id="email" placeholder="exemple@domain.xxx"/><br/>
+
+	<label for="age">Age</label>
+	<input name="age" type="number" value="" id="age" /><br/>
+
+	<label for="message">message</label>
+	<textarea cols="30" id="message" name="message" rows="10"></textarea><br/>
+
+	Choisissez une/plusieurs langue: <br/>
+	<label for="anglais">Anglais</label>
+	<input name="anglais" type="checkbox" value="anglais" id="anglais"/><br/>
+
+	<label for="espagnol">Espagnol</label>
+	<input name="anglais" type="checkbox" value="espagnol" id="espagnol"/><br/>
+
+	<label for="italien">italien</label>
+	<input name="anglais" type="checkbox" value="italien" id="italien"/><br/>
+
+	choisissez votre niveau : <br/>
+	<label for="debutant">Debutant</label>
+	<input name="niveau" type="radio" value="debutant" id="debutant"/><br/>
+
+	<label for="bon">Bon</label>
+	<input name="niveau" type="radio" value="bon" id="bon"/><br/>
+
+	<label for="confirme">Confirmé</label>
+	<input name="niveau" type="radio" value="Confirme" id="Confirme"/><br/>
+
+	<input name="" type="submit" value="soumettre"/>
+</form>
   </body>
 </html>
